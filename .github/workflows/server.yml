@@ -38,4 +38,4 @@ jobs:
           file: ./server/Dockerfile.production
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: yooooomi/your_spotify_server:latest
+          tags: algertc/your_spotify_server:latest

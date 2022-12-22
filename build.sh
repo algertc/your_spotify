@@ -1,2 +1,3 @@
-cd client && docker build -f Dockerfile.production . -t yooooomi/your_spotify_client:latest ; cd -
-cd server && docker build -f Dockerfile.production . -t yooooomi/your_spotify_server:latest ; cd -
+cd client && docker buildx build --platform linux/amd64 -f Dockerfile.production . -t algertc/your_spotify_client:latest ; cd -
+cd server && docker buildx build --platform linux/amd64 -f Dockerfile.production . -t algertc/your_spotify_server:latest ; cd -
+

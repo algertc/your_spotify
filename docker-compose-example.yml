@@ -2,7 +2,7 @@ version: "3"
 
 services:
   server:
-    image: yooooomi/your_spotify_server
+    image: algertc/your_spotify_server
     restart: always
     ports:
       - "8080:8080"
@@ -23,7 +23,7 @@ services:
       - ./your_spotify_db:/data/db
 
   web:
-    image: yooooomi/your_spotify_client
+    image: algertc/your_spotify_client
     restart: always
     ports:
       - "3000:3000"
