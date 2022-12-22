@@ -29,7 +29,7 @@ export default function Login() {
       <div className={s.bottom}>
         <Text className={s.msgBold}>⛔️ New Users: </Text>
         <Text className={s.msg}>
-          Please Contact Charlie To Authorize Your Spotiify Account ⛔️
+          Please Contact Charlie To Authorize Your Spotify Account ⛔️
         </Text>
       </div>
       <div className={s.bottom}>
