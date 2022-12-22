@@ -21,12 +21,23 @@ export default function Login() {
       <Text element="h1" className={s.title}>
         Your Spotify
       </Text>
-      <Text className={s.welcome}>
-        To access your personal dashboard, please login through Spotify
-      </Text>
       <div>
         <a className={s.link} href={getSpotifyLogUrl()}>
           Login with Spotify
+        </a>
+      </div>
+      <div className={s.bottom}>
+        <Text className={s.msgBold}>⛔️ New Users: </Text>
+        <Text className={s.msg}>
+          Please Contact Charlie To Authorize Your Spotiify Account ⛔️
+        </Text>
+      </div>
+      <div className={s.bottom}>
+        <Text className={s.demoTest}>See The Dashboard Design: </Text>
+        <a
+          className={s.demoTest}
+          href="https://raw.githubusercontent.com/algertc/your_spotify/master/images/largedemo.png">
+          Here
         </a>
       </div>
     </div>
